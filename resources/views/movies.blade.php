@@ -16,12 +16,12 @@
         </thead>
         <tbody>
 
-            @forelse ($films as $film)
+            @forelse ($movies as $movie)
             <tr>
-                <th scope="row">{{ $film->id }}</th>
-                <td>{{ $film->title }}</td>
-                <td>{{ $film->original_title }}</td>
-                <td>{{ $film->date }}</td>
+                <th scope="row">{{ $movie->id }}</th>
+                <td>{{ $movie->title }}</td>
+                <td>{{ $movie->original_title }}</td>
+                <td>{{ $movie->date }}</td>
             </tr>
             @empty
                 <h3>Nessun risultato trovato</h3>

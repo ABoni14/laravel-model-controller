@@ -17,4 +17,4 @@ Route::get('/', "PageController@index")->name('home');
 
 Route::get('/attori', "PageController@attori")->name('attori');
 
-Route::get('/films', "FilmController@films")->name('films');
+Route::get('/movies', "MovieController@movies")->name('movies');
