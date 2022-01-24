@@ -13,10 +13,6 @@ class PageController extends Controller
     public function attori() {
         return view("attori");
     }
-
-    public function films() {
-        return view("films");
-    }
 }
 
 
